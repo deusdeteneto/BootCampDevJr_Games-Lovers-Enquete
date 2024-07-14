@@ -50,6 +50,12 @@ p {
   font-weight: 400;
 }
 
+a {
+  color: var(--white);
+  font-size: 12px;
+  text-decoration: none;
+}
+
 /* Container Interno */
 .container-int {
   background: linear-gradient(to top, var(--dark-purple), var(--eminence));
@@ -64,4 +70,43 @@ input {
   border-radius: 5px;
   border: none;
   margin-top: 22px;
+}
+
+article {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 28%;
+  margin-top: 26px;
+  background-color: var(--palatinate-blue);
+  background: linear-gradient(
+    to top,
+    var(--resolution-blue),
+    var(--palatinate-blue)
+  );
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+
+.card-icon {
+  background: linear-gradient(to top, var(--anil-blue), var(--risd-blue));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+object {
+  max-width: 120px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: var(--dark-purple);
+  color: var(--white);
+  border-radius: 3px;
 }
