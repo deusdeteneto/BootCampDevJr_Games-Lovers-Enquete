@@ -1,8 +1,10 @@
 :root {
   --dark-purple: #27152a;
   --eminence: #62246e;
-  --palatinate-blue: #2b3bda;
   --anil-blue: #2ba3da;
+  --palatinate-blue: #2b3bda;
+  --risd-blue: #3e5cee;
+  --resolution-blue: #372d86;
   --sunglow: #fecc27;
   --white: #ffffff;
   --silver: #cbcbcb;
@@ -17,8 +19,9 @@ body {
 
 /* Container */
 .container {
-  background-color: var(--dark-purple);
-  max-width: 80%;
+  background: linear-gradient(to bottom, var(--dark-purple), var(--eminence));
+  width: 90%;
+  max-width: 700px;
   border-radius: 5px;
   padding: 20px;
   text-align: center;
@@ -30,40 +33,35 @@ h1 {
   color: var(--sunglow);
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 26px;
+  margin-top: 0;
 }
 
 h2 {
   color: var(--white);
   font-weight: 400;
   font-size: 22px;
+  margin: 5px 0 0 0;
 }
 
 p {
   color: var(--white);
+  font-size: 14px;
+  font-weight: 400;
 }
 
 /* Container Interno */
 .container-int {
-  background: var(--eminence);
+  background: linear-gradient(to top, var(--dark-purple), var(--eminence));
   border-radius: 5px;
-  padding-bottom: 10px;
+  padding: 10px 0;
+  margin-top: 30px;
 }
 
 input {
   width: 80%;
-}
-
-article {
-  display: flex;
-  justify-content: space-around;
-}
-
-.card {
-  background-color: var(--palatinate-blue);
-  padding: 5px;
-}
-
-object {
-  background-color: var(--anil-blue);
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 22px;
 }
