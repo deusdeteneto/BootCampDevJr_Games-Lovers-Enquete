@@ -1,3 +1,12 @@
-body{
-    background-color: blanchedalmond;
+:root {
+  --dark-purple: #27152a;
+  --eminence: #62246e;
+  --palatinate-blue: #2b3bda;
+  --sunglow: #fecc27;
+  --white: #ffffff;
+  --silver: #cbcbcb;
+}
+
+body {
+  background-color: var(--silver);
 }
