@@ -2,6 +2,7 @@
   --dark-purple: #27152a;
   --eminence: #62246e;
   --palatinate-blue: #2b3bda;
+  --anil-blue: #2ba3da;
   --sunglow: #fecc27;
   --white: #ffffff;
   --silver: #cbcbcb;
@@ -9,4 +10,60 @@
 
 body {
   background-color: var(--silver);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container */
+.container {
+  background-color: var(--dark-purple);
+  max-width: 80%;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Título/Texto */
+h1 {
+  color: var(--sunglow);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+h2 {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 22px;
+}
+
+p {
+  color: var(--white);
+}
+
+/* Container Interno */
+.container-int {
+  background: var(--eminence);
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+input {
+  width: 80%;
+}
+
+article {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: var(--palatinate-blue);
+  padding: 5px;
+}
+
+object {
+  background-color: var(--anil-blue);
 }
