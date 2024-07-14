@@ -111,6 +111,7 @@ button {
   border-radius: 3px;
 }
 
+/* Responsividade */
 @media (max-width: 600px) {
   article {
     flex-direction: column;
