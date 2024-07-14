@@ -24,5 +24,3 @@ O projeto consiste em uma página web onde os usuários podem inserir seus dados
 
 ### Tela de Mobile
 (atualizar pendencia)
-
-## Como Executar o Projeto
