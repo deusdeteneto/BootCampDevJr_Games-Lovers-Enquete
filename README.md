@@ -8,8 +8,7 @@ O projeto consiste em uma página web onde os usuários podem inserir seus dados
 
 ## Tecnologias Utilizadas
 
-- HTML5
-- CSS3
+<img src="https://skillicons.dev/icons?i=html,css" />
 
 ## Funcionalidades
 
@@ -18,9 +17,27 @@ O projeto consiste em uma página web onde os usuários podem inserir seus dados
 - Layout responsivo que se adapta a diferentes tamanhos de tela.
 
 ## Imagens do Projeto
+### Tela Cheia no Computador e Tela de Mobile
+<div style="display: flex; justify-content: space-around;">
+  <img src="https://raw.githubusercontent.com/deusdeteneto/Games-Lovers-Enquete/main/images/Web2.png" alt="Web" height="600">
+  <img src="https://raw.githubusercontent.com/deusdeteneto/Games-Lovers-Enquete/main/images/Mobile2.png" alt="Mobile" height="600">
+</div>
 
-### Tela Cheia no Computador
-(atualizar pendencia)
+## Como Executar o Projeto
 
-### Tela de Mobile
-(atualizar pendencia)
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/games-lovers-enquete.git
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd games-lovers-enquete
+3. Abra o arquivo `index.html` no seu navegador preferido.
+4. Envie para o repositório remoto:
+   ```bash
+   git push origin minha-nova-feature
+5. Abra um Pull Request.
+
+## Licença
+Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+<em>Desenvolvido por @deusdeteneto</em>
